@@ -5,7 +5,26 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontSize: {
+        '-2': 'var(--step--2)',
+        '-1': 'var(--step--1)',
+        '0': 'var(--step-0)',
+        '1': 'var(--step-1)',
+        '2': 'var(--step-2)',
+        '3': 'var(--step-3)',
+        '4': 'var(--step-4)',
+        '5': 'var(--step-5)',
+      },
+      colors: {
+        'primary-pink-400': 'var(--primary-pink-400)',
+        'primary-pink-200': 'var(--primary-pink-200)',
+        'secondary-yellow': 'var(--secondary-yellow)',
+      },
+      fontFamily: {
+        sans: ['var(--main-font)', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
