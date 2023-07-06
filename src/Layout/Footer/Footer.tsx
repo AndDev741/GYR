@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
           <div className='flex justify-center mt-7 lg:mt-12 cursor-pointer'>
             <div className='w-[150px] h-[35px] bg-[#c992d1] rounded-l-3xl flex justify center items-center'>
-              <input className='font-[400] text-[14px] pl-4 text- bg-transparent placeholder-white text-white ' placeholder='example@mail.com'  />
+              <input className='font-[400] text-[14px] pl-4 text- bg-transparent focus:outline-none placeholder-white text-white ' placeholder='example@mail.com'  />
             </div>
             <div className='w-[130px] h-[35px] bg-white rounded-r-3xl'>
               <button className='text-[#941B9D] text-[16px] ml-5 text-center pt-2'>GET STARTED</button>
