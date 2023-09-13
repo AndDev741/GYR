@@ -90,7 +90,7 @@ const Home = () => {
             <p className='text-center w-[70vw] text-[#882190] font-[700] text-[20px]'>Meet our gardeners</p>
         </div>
       </div>
-      <div className='flex overflow-x-scroll lg:overflow-x-auto justify-start mt-12 pb-12 lg:flex '>
+      <div className='flex overflow-x-scroll lg:overflow-x-auto justify-start mt-12 pb-12 lg:flex'>
         <div className='w-[351px]  min-w-[351px] mx-5 ml-12 rounded-[12px]  '>
           <div className='flex justify-center'>
             <img src={gardener} className='w-[120px]' />
